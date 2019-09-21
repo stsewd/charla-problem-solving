@@ -1,5 +1,7 @@
 # Resolución de problemas y competencias de programación
 
+<https://stsewd.dev/charla-problem-solving/>
+
 ## Dependencias
 
 Slides creados con [reveal.js](https://github.com/hakimel/reveal.js).
