@@ -78,6 +78,9 @@
 
         <section class="center">
           <h2>Lo que debes conocer</h2>
+          <aside class="notes">
+            Hay varios temas que generalmente se tratan en estas competencias.
+          </aside>
         </section>
 
         <section>
@@ -107,6 +110,8 @@
           <aside class="notes">
             Nos da una medida de que tan mal nuestro algoritmo va a ejecutar con cierta entrada de datos.
             Siempre nos da el peor caso.
+            ¿Alguien recuerda esto?
+            Nos sirve mucho en este tipo de competencias porque..., y en le vida real.
           </aside>
         </section>
 
@@ -121,9 +126,14 @@
               Linear search, binary search.
             </li>
           </ul>
-          <p>
+          <p class="fragment">
             Aprende como funcionan, pero tampoco debes reinventarlos.
           </p>
+
+          <aside class="notes">
+            <p>Hacer énfasis en counting sort, probablemente nunca les enseñaron</p>
+            <p>Usar las funciones de ordenamiento que el lenguaje nos provee</p>
+          </aside>
         </section>
 
         <section>
@@ -140,6 +150,14 @@
               Árboles y grafos (teoría de grafos)
             </li>
           </ul>
+          
+          <aside class="notes">
+            Para cada problema es necesario usar las estructuras de datos
+            adecuadas y sus operaciones.
+            Nos pueden ahorra memoria, y tiempo de ejecución.
+            Mostrat ejemplos en python, sets más rápido que lists para buscar.
+            Grafos, matrix de adyacencia (evitar hacer un objecto), dirigidos, no dirigidos.
+          </aside>
         </section>
 
         <section>
@@ -158,6 +176,11 @@
               Aritmética modular
             </li>
           </ul>
+
+          <aside class="notes">
+            Señalar la importancia de los números primos, y aritmética modular.
+            Mostrat algunos ejemplos en python (math.gcd).
+          </aside>
         </section>
 
         <section>
@@ -170,6 +193,11 @@
             <li>Left shift (&lt;&lt;)</li>
             <li>Right shift (&gt;&gt;)</li>
           </ul>
+
+          <aside class="notes">
+            Mostrat ejemplos en python 0b12,
+            énfasis en XOR. Left shift n * 2**k, right shift n/2*k
+          </aside>
         </section>
 
         <section>
@@ -179,6 +207,10 @@
             <li>String matching</li>
             <li>Expresiones regulares</li>
           </ul>
+          <aside class="notes">
+            Hay algoritmos de búsqueda de substrings.
+            Tener cuidado del uso de memoria con strings.
+          </aside>
         </section>
 
         <section>
@@ -191,6 +223,11 @@
               Dynamic programming
             </li>
           </ul>
+          <aside class="notes">
+            Cuidado con el nombre. Maneras de implementar un algoritmo, no son un algoritmo o un paradigma de programación.
+            Ejemplos: más tareas en el menor tiempo posible (no siempre un greedy resuelve el problema).
+            Factorial, memorización.
+          </aside>
         </section>
 
         <section>
@@ -214,23 +251,46 @@
 
           <section>
             <p>Primero resuelve el problema, luego programa.</p>
+            <aside class="notes">
+              Usa lápiz y papel.
+            </aside>
           </section>
 
           <section>
-            Divide el problema en problemas pequeños.
+            <p>Divide el problema en problemas pequeños.</p>
+            <aside class="notes">
+              Pequeño problemas son más fáciles de entender y resolver.
+            </aside>
           </section>
 
           <section>
-            Presta atención a los límites y tipo de los valores.
-            Prueba tu algoritmo con valores grandes.
+            <p>
+              Presta atención a los límites y tipo de los valores.
+              Prueba tu algoritmo con valores grandes.
+            </p>
+            <aside class="notes">
+              Muchas veces tu algoritmo va a fallar,
+              y entiendes porqué.
+              O escribes código muy defensivo cuando no es necesario.
+            </aside>
           </section>
 
           <section>
             <p>Primero resulve el problema de la manera más tonta, optimiza donde sea necesario.</p>
+            <aside class="notes">
+              Antes de complicarte con soluciones complejas, hazlo simple.
+              Incluso entiendes mejor el problema. Hazlo con fuerza bruta,
+              puede que esa sea la solución.
+              También se aplica en software YAGNI.
+            </aside>
           </section>
 
           <section>
             <p>Explica a alguien más el problema.</p>
+            <aside class="notes">
+              También aplica cuando arreglas un bug.
+              Explicandole a alguien más el problema te puede traer otras ideas.
+            </aside>
           </section>
         </section>
 
@@ -238,10 +298,13 @@
           <h2>Tips</h2>
           <ul>
             <li>
+              Google es tu amigo
+            </li>
+            <li>
               Usa lo que te sea más cómodo
             </li>
             <li>
-              Editor
+              Usa tu editor o IDE favorito
             </li>
             <li>
               Escoge tu lenguaje de programación
@@ -250,6 +313,11 @@
               Escribe código <i>aceptablemente limpio</i>
             </li>
           </ul>
+          <aside class="notes">
+            Hay muchas cosas por conocer!
+            Pero por suerte no debemos memorizar cada algoritmo.
+            Pero si entenderlo y saber que existe para solucionar un tipo de problema.
+          </aside>
         </section>
 
         <section>
@@ -265,9 +333,13 @@
               Conoce sus peculiaridades
             </li>
             <li>
-              Conoce su debugger
+              Conoce como usar su debugger
             </li>
           </ul>
+
+          <aside class="notes">
+            Ejemplos: python, c++, java. No tienes porque escribir todos los algoritmos desde cero.
+          </aside>
         </section>
 
         <section>
@@ -284,6 +356,13 @@
           <section>
             Descansa antes de la competencia
           </section>
+
+          <aside class="notes">
+            Trata de resolver problemas difíciles en equipo,
+            más ideas.
+            Comida chatarra no es buena para tu cerebro.
+            No pases resolviendo o estudiando antes de la competencia.
+          </aside>
         </section>
 
         <section>
@@ -313,13 +392,26 @@
                 Comunidades locales - <a href="https://python.ec" target="_blank">https://python.ec</a>
               </li>
             </ul>
+
+            <aside class="notes">
+              Spoiler! no es algo simple, como todo debes practicar para mejorar.
+            </aside>
           </section>
         </section>
 
         <section>
           <h3>Python tips</h3>
-          math, itertools, functools, list comprehension, generator expressions.
-          Memoria (crear listas)
+          <ul>
+            <li>
+              math, itertools, functools, queue
+            </li>
+            <li>
+              Generator expressions; list, dict, y set comprehension.
+            </li>
+            <li>
+              timeit
+            </li>
+          </ul>
         </section>
 
         <section>
