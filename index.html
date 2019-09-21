@@ -94,7 +94,7 @@
               <tr>
                 <td>O(1)</td>
                 <td>O(n<sup>2</sup>)</td>
-                <td>n!</td>
+                <td>O(n!)</td>
               </tr>
               <tr style="border: none;">
                 <td>O(n)</td>
@@ -133,6 +133,7 @@
           <aside class="notes">
             <p>Hacer énfasis en counting sort, probablemente nunca les enseñaron</p>
             <p>Usar las funciones de ordenamiento que el lenguaje nos provee</p>
+            <p>Ejemplo de sorted y .sort en python</p>
           </aside>
         </section>
 
@@ -150,12 +151,12 @@
               Árboles y grafos (teoría de grafos)
             </li>
           </ul>
-          
+
           <aside class="notes">
             Para cada problema es necesario usar las estructuras de datos
             adecuadas y sus operaciones.
-            Nos pueden ahorra memoria, y tiempo de ejecución.
-            Mostrat ejemplos en python, sets más rápido que lists para buscar.
+            Nos pueden ahorrar memoria, y tiempo de ejecución.
+            Mostrar ejemplos en python (pop, append), sets más rápido que lists para buscar.
             Grafos, matrix de adyacencia (evitar hacer un objecto), dirigidos, no dirigidos.
           </aside>
         </section>
@@ -170,9 +171,6 @@
               Greatest common divisor (GCD) (algoritmo de euclides)
             </li>
             <li>
-              Lowest common denominator (LCD)
-            </li>
-            <li>
               Aritmética modular
             </li>
           </ul>
@@ -180,6 +178,7 @@
           <aside class="notes">
             Señalar la importancia de los números primos, y aritmética modular.
             Mostrat algunos ejemplos en python (math.gcd).
+            El alg de euclides es uno de los alg más antiguos.
           </aside>
         </section>
 
@@ -208,7 +207,9 @@
             <li>Expresiones regulares</li>
           </ul>
           <aside class="notes">
+            Cuantos caracteres debes cambiar o eliminar para que sea igual que otro string.
             Hay algoritmos de búsqueda de substrings.
+            Tratar de no usarlas.
             Tener cuidado del uso de memoria con strings.
           </aside>
         </section>
@@ -252,6 +253,7 @@
           <section>
             <p>Primero resuelve el problema, luego programa.</p>
             <aside class="notes">
+              Si empiezas a programar primero, no vas a tener idea de lo que estás programando.
               Usa lápiz y papel.
             </aside>
           </section>
@@ -290,6 +292,7 @@
             <aside class="notes">
               También aplica cuando arreglas un bug.
               Explicandole a alguien más el problema te puede traer otras ideas.
+              Pragmatic programmer, ruber duck debugging.
             </aside>
           </section>
         </section>
@@ -317,6 +320,7 @@
             Hay muchas cosas por conocer!
             Pero por suerte no debemos memorizar cada algoritmo.
             Pero si entenderlo y saber que existe para solucionar un tipo de problema.
+            Escribe codigo limpio, así otros miembros de tu equipo de pueden ayudar.
           </aside>
         </section>
 
@@ -338,7 +342,7 @@
           </ul>
 
           <aside class="notes">
-            Ejemplos: python, c++, java. No tienes porque escribir todos los algoritmos desde cero.
+            Ejemplos: python, c++, java (no brainfuck). No tienes porque escribir todos los algoritmos desde cero.
           </aside>
         </section>
 
@@ -360,7 +364,7 @@
           <aside class="notes">
             Trata de resolver problemas difíciles en equipo,
             más ideas.
-            Comida chatarra no es buena para tu cerebro.
+            Comida chatarra no es buena para tu cerebro. Es muy tipico tener comida chatarra en este tipo de competencias, eso no está bien.
             No pases resolviendo o estudiando antes de la competencia.
           </aside>
         </section>
@@ -395,6 +399,7 @@
 
             <aside class="notes">
               Spoiler! no es algo simple, como todo debes practicar para mejorar.
+              Libro, tiene más de 1k hojas de diversión.
             </aside>
           </section>
         </section>
@@ -404,6 +409,9 @@
           <ul>
             <li>
               math, itertools, functools, queue
+            </li>
+            <li>
+              pow() vs math.pow()
             </li>
             <li>
               Generator expressions; list, dict, y set comprehension.
